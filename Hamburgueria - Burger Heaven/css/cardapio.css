@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 5;
+    
+/* A propriedade background com linear-gradient em CSS é usada para aplicar 
+um fundo que é uma transição linear entre duas ou mais cores. Isso cria um 
+efeito de gradiente, onde as cores se misturam suavemente uma na outra ao longo de uma linha.*/
+    background: linear-gradient(120deg, rgb(161, 140, 140) 0%, rgb(122, 98, 73) 100%);
+
+}
+
+ header {
+    background-color: #5f2300;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color:rgb(252, 103, 44);
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 17px;
+}
+
+nav a {
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color:rgb(0, 255, 200)
+}
+
+nav a:hover {
+    color:#ff1180;
+}
+
+/* Colocamos .produtos no css e no html colocamos class=produtos 
+para ele conseguir localizar no css e
+conseguir editar o que vc deseja pela tag class */
+
+.produtos {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 20px;
+}
+
+.produtos li {
+    flex: 1;
+    background-color: rgb(133, 49, 34);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.produtos img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    color: rgb(36, 226, 19);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fd0000;
+    text-decoration: none;
+}
+
+.texto{
+    color:aquamarine;
+}
